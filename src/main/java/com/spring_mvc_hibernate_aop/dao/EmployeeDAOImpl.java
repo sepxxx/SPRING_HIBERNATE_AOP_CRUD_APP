@@ -6,7 +6,9 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import javax.persistence.Query;
 import java.util.List;
+import java.util.Queue;
 
 
 @Repository
@@ -33,5 +35,13 @@ public class EmployeeDAOImpl implements EmployeeDAO {
         Session session = sessionFactory.getCurrentSession();
         Employee employee = session.get(Employee.class, id);
         return employee;
+    }
+
+    @Override
+    public void deleteEmployee(int id) {
+        Session session = sessionFactory.getCurrentSession();
+        Query employeeQuery = session.createQuery("delete from Employee where id=:employeeId");
+        employeeQuery.setParameter("employeeId", id);
+        employeeQuery.executeUpdate();
     }
 }
