@@ -11,3 +11,31 @@ _1_
 6)создать контролллер с методом showAllEmployees
 7)DI Dao
 8)создать страничку с таблицей
+
+
+_2_
+1)создать EmployeeService EmployeeServiceImpl
+2)поле класса EmployeeServiceImpl - EmployeeDao - использовать
+SPRING DI
+
+_3_ Добавление работника в бд
+1)добавить методы addEmployee, saveEmployee в MyController
+    addEmployee
+        -создается новая страницу из главной, на которой
+        вводится инфа по работнику
+        -создается объект Employee, добавляется в модель,
+        в нем хранится информация
+    saveEmployee
+    -берет employee из модели, передает dao методу saveEmployee
+2) создать jsp с формочкой
+3) метод с редиректом на начальную страницу
+4)методы saveEmployee в services, dao's
+
+_4_ Изменение информации о работнике
+Переиспользовать view employee-info
+                метод для сохранения
+1)добавить во view генерацию ссылки с параметром, столбец с кнопками
+2)добавить в MyController метод updateEmployee
+внутри получаем id из параметров запроса,
+обращаемся к employeeService, получаем Employee
+3)изменить в DAO метод save на saveOrUpdate
