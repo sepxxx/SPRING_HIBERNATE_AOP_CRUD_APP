@@ -10,13 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="785c0bba-b833-457d-8ffa-a4df239b0bbd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring_mvc_hibernate_aop/aspects/MyAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_mvc_hibernate_aop/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_mvc_hibernate_aop/controller/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_mvc_hibernate_aop/dao/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_mvc_hibernate_aop/dao/EmployeeDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_mvc_hibernate_aop/dao/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_mvc_hibernate_aop/dao/EmployeeDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_mvc_hibernate_aop/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_mvc_hibernate_aop/services/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_mvc_hibernate_aop/services/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_mvc_hibernate_aop/services/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-emps.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-emps.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -174,7 +172,7 @@
       <workItem from="1688640719300" duration="2434000" />
       <workItem from="1688645142341" duration="57000" />
       <workItem from="1688705104509" duration="1704000" />
-      <workItem from="1688708484557" duration="2429000" />
+      <workItem from="1688708484557" duration="3376000" />
     </task>
     <servers />
   </component>
